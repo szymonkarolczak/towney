@@ -2,8 +2,8 @@
 @extends('header')
 @extends('footer')
 
-@section('title', 'Praca z Towney')
+@section('title', 'RODO')
 
 @section('content')
-    Careers test page
+    RODO test page 
 @endsection

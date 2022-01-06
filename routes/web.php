@@ -13,6 +13,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/* Front page routing */
+
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/terms', function () {
+    return view('terms');
+});
+
+Route::get('/careers', function () {
+    return view('careers');
+});
+
+Route::get('/policy', function () {
+    return view('policy');
+});
+
+Route::get('/rodo', function () {
+    return view('rodo');
+});
+
+/* End front page routing */
