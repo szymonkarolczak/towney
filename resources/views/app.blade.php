@@ -38,6 +38,10 @@
         <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
         <meta name="theme-color" content="#ffffff">
         <link rel="icon" href="/favicon.ico">
+
+        <!-- JS -->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        
         <title>Towney - @yield('title')</title>
     </head>
     <body>

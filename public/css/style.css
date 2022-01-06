@@ -3,11 +3,30 @@ body{
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+/* Features */
+
+#features-col{
+    background-color: #152238;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+/* End Features */
+
+/* Contact */
+
+#contact-col{
+    background-color: #152238;
+    border-top-right-radius: 90px;
+}
+
+/* End contact*/
+
 
 /* Footer */
 
 #footer{
-    background-image: url("/public/images/foo_bg.jpg");
+    background-image: url("/public/images/foo-bg.jpg");
+    background-position: bottom;
     background-color: #152238;
     background-size: auto;
     color: #FFF;

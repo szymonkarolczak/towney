@@ -1,6 +1,6 @@
 
 @section('footer')
-    <div class="row p-3" id="footer">
+    <div class="row p-4" id="footer">
         <div class="col-4">
         <ul>
                 <li class="m-2"><a href="/policy">polityka prywatności</a></li>
