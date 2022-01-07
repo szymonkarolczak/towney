@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +41,7 @@
 
         <!-- JS -->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        
+
         <title>Towney - @yield('title')</title>
     </head>
     <body>
@@ -50,5 +50,7 @@
         @yield('content')
         @yield('footer')
         </div>
+        <img class="img-fluid" src="images/foo-bg.jpg" alt="Towney" id="foo-image">
+
     </body>
 </html>

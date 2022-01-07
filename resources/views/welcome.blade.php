@@ -8,11 +8,12 @@
 <!-- Hero Section -->
 
 <div class="row">
-    <div class="col-6">
-        Test
+    <div class="col-6 d-flex align-items-center">
+        <h1>TOWNEY</h1><br>
+        <h3>Twoje miasto w zasięgu ręki</h3>
     </div>
     <div class="col-6">
-        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_g3dkif8j.json"  background="transparent"  speed="1"  style="width: 1440; height: 300px;"  loop  autoplay></lottie-player>
+        <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_g3dkif8j.json"  background="transparent"  speed="1"  style="width: 1440; height: 500px;"  loop  autoplay></lottie-player>
     </div>
 </div>
 
@@ -61,6 +62,7 @@
 <!--/ End Cities Section -->
 
 <!-- Contact Section -->
+<h1 class="text-center p-3">KONTAKT</h1>
 <div class="row" id="contact">
     <div class="col-6" id="contact-col">
         Lorem ipsum
