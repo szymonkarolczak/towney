@@ -17,7 +17,7 @@
             <div class="form-group mb-2">
                 <input type="e-mail" class="form-control" placeholder="Wpisz swój adres e-mail">
             </div>
-            <button type="submit" class="btn btn-secondary mb-2">Dołącz</button>
+            <button type="submit" class="primary-button mb-2">Dołącz</button>
             </form>
         </div>
 

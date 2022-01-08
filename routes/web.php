@@ -35,6 +35,10 @@ Route::get('/rodo', function () {
     return view('rodo');
 });
 
+Route::get('/login', function () {
+    return view('login');
+});
+
 /* End front page routing */
 
 Route::get('firebase','FirebaseController@index');

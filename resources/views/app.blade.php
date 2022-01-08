@@ -50,7 +50,7 @@
         @yield('content')
         @yield('footer')
         </div>
-        <img class="img-fluid" src="images/foo-bg.jpg" alt="Towney" id="foo-image">
+        <img class="img-fluid sticky-bottom" src="images/foo-bg.jpg" alt="Towney" id="foo-image">
 
     </body>
 </html>
