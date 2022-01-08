@@ -12,7 +12,8 @@
         "guzzlehttp/psr7": "^1.8.2",
         "kreait/firebase-php": "^4.0",
         "laravel/framework": "^8.40",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.4"
     },
     "require-dev": {
         "facade/ignition": "^2.5",

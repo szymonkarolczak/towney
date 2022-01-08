@@ -8,7 +8,7 @@
 <!-- Hero Section -->
 
 <div class="row">
-    <div class="col-md-6 d-flex align-items-center">
+    <div class="col-md-6 text-center">
         <h1>TOWNEY</h1><br>
         <h3>Twoje miasto w zasięgu ręki</h3>
     </div>
