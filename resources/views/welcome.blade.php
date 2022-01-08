@@ -8,11 +8,11 @@
 <!-- Hero Section -->
 
 <div class="row">
-    <div class="col-6 d-flex align-items-center">
+    <div class="col-md-6 d-flex align-items-center">
         <h1>TOWNEY</h1><br>
         <h3>Twoje miasto w zasięgu ręki</h3>
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
         <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_g3dkif8j.json"  background="transparent"  speed="1"  style="width: 1440; height: 500px;"  loop  autoplay></lottie-player>
     </div>
 </div>
@@ -33,7 +33,7 @@
 
 <!-- Features Section -->
 <div class="row pb-3" id="features">
-    <div class="col-8">
+    <div class="col-md-8">
         <ul>
             <li>1</li>
             <li>2</li>
@@ -41,7 +41,7 @@
             <li>4</li>
         </ul>
     </div>
-    <div class="col-4 text-center" id="features-col">
+    <div class="col-md-4 text-center" id="features-col">
         <img class="img-fluid" src="/images/phone-lg.jpg" alt="Features Towney" height="500" width="300">
     </div>
 </div>
@@ -51,10 +51,10 @@
 <!-- Cities Section -->
 
 <div class="row">
-    <div class="col-6">
-        <img src="/images/map.png" alt="Mapa Towney">
+    <div class="col-md-6">
+        <img class="img-fluid" src="/images/map.png" alt="Mapa Towney">
     </div>
-    <div class="col-6">
+    <div class="col-md-6">
         Pobierz etc
     </div>
 </div>
@@ -64,10 +64,10 @@
 <!-- Contact Section -->
 <h1 class="text-center p-3">KONTAKT</h1>
 <div class="row" id="contact">
-    <div class="col-6" id="contact-col">
+    <div class="col-md-6" id="contact-col">
         Lorem ipsum
     </div>
-    <div class="col-6 p-3">
+    <div class="col-md-6 p-3">
     <form>
   <div class="form-group">
     <label for="exampleFormControlInput1">Email address</label>
