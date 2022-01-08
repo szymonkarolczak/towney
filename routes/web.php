@@ -36,3 +36,6 @@ Route::get('/rodo', function () {
 });
 
 /* End front page routing */
+
+Route::get('firebase','FirebaseController@index');
+
