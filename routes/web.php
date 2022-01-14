@@ -39,6 +39,12 @@ Route::get('/login', function () {
     return view('login');
 });
 
+/* News routing */
+
+Route::get('news', [NewsController::class, 'index'])->name('news.index');
+
+/* End news routing */
+
 /* End front page routing */
 
 Route::get('firebase','FirebaseController@index');

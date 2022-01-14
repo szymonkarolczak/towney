@@ -9,7 +9,9 @@
                 <li class="m-2"><a href="/rodo">rodo</a></li>
             </ul>
         </div>
-        <div class="col-md-4">test</div>
+        <div class="col-md-4 text-center">
+            <img class="img-fluid" src="/images/foo.jpg" alt="Towney" style="height: 200px; width: 200px;">
+        </div>
         <div class="col-md-4 text-center">
             <h3>NEWSLETTER</h3>
             <h6>Dołącz do naszego newslettera i otrzymuj jako pierwszy świeże informacje od Towney!</h6>

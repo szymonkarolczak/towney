@@ -1,4 +1,4 @@
-html, body{
+body{
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
@@ -7,8 +7,7 @@ html, body{
 
 #features-col{
     background-color: #152238;
-    border-top-left-radius: 90px;
-    border-bottom-left-radius: 90px;
+    border-radius: 50px;
 }
 /* End Features */
 
@@ -16,7 +15,7 @@ html, body{
 
 #contact-col{
     background-color: #152238;
-    border-top-right-radius: 90px;
+    border-top-left-radius: 90px;
 }
 
 /* End contact*/
@@ -120,3 +119,9 @@ li>a:hover{
     border-color: #0d6efd;
 }
 /* End buttons */
+
+p{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+}

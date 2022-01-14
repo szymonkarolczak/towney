@@ -33,16 +33,22 @@
 
 <!-- Features Section -->
 <div class="row pb-3" id="features">
-    <div class="col-md-8">
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
-        </ul>
+    <div class="col-md-4 text-center align-self-center"> 
+        <h2>NEWSY I WYDARZENIA</h2>
+        <h6>Test</h6>
+        <hr>
+        <h2>KATALOG FIRM</h2>
+        <h6>test</h6>
     </div>
     <div class="col-md-4 text-center" id="features-col">
         <img class="img-fluid" src="/images/phone-lg.jpg" alt="Features Towney" height="500" width="300">
+    </div>
+    <div class="col-md-4 text-center align-self-center">
+        <h2 class="font-weight-bold">PLANOWANE WYŁĄCZENIA</h2>
+        <p class="text-muted">test</p>
+        <hr>
+        <h2>RESTAURACJE I TRANSPORT</h2>
+        <h6>test</h6>
     </div>
 </div>
 
@@ -62,26 +68,22 @@
 <!--/ End Cities Section -->
 
 <!-- Contact Section -->
-<h1 class="text-center p-3">KONTAKT</h1>
 <div class="row" id="contact">
-    <div class="col-md-6" id="contact-col">
-        Lorem ipsum
+    <div class="col-md-6">
+    <h1 class="text-center p-3">KONTAKT</h1>
     </div>
-    <div class="col-md-6 p-3">
+    <div class="col-md-6 p-4"  id="contact-col">
     <form>
   <div class="form-group">
-    <label for="exampleFormControlInput1">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    <input type="email" class="form-control m-3" id="exampleFormControlInput1" placeholder="Twój adres e-mail...">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Name</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password">
+    <input type="text" class="form-control m-3" id="exampleInputPassword1" placeholder="Imię">
   </div>
   <div class="form-group">
-    <label for="exampleFormControlTextarea1">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    <textarea class="form-control m-3" id="exampleFormControlTextarea1" rows="3" placeholder="Tu wpisz swoją wiadomość..."></textarea>
   </div>
-  <button type="submit" class="secondary-button">Submit</button>
+  <button type="submit" class="primary-button m-3">Wyślij</button>
 </form>
     </div>
 </div>
