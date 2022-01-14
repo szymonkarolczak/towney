@@ -1,13 +1,30 @@
 @extends('app')
-@extends('header')
-@extends('footer')
+
 
 @section('title', 'Strona główna')
 
 @section('content')
+
+<div id="pagepiling">
+	    <div class="section" id="section1">
+	    	<h1>One</h1>
+	    </div>
+        <div class="section" id="section2">
+	    	<h1>Two</h1>
+	    </div>
+        <div class="section" id="section3">
+	    	<h1>Three</h1>
+	    </div>
+        <div class="section" id="section4">
+	    	<h1>Four</h1>
+	    </div>
+	    
+	</div>
+
+    
 <!-- Hero Section -->
 
-<div class="row">
+<div class="row" id="hero">
     <div class="col-md-6 text-center">
         <h1>TOWNEY</h1><br>
         <h3>Twoje miasto w zasięgu ręki</h3>
@@ -21,8 +38,11 @@
 
 <!-- About Section -->
 
-<div class="row">
-    <div class="col">
+<div class="row" id="about">
+    <div class="col-md-6 text-center">
+        <img class="img-fluid" src="/images/about.jpg" alt="Towney o nas" id="about-img">
+    </div>
+    <div class="col-md-6">
         <h1>Test</h1>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut fuga inventore modi,
             unde fugit nihil praesentium corporis quasi, consectetur adipisci ab quisquam, eligendi reiciendis minima ipsa. Aliquid voluptas earum amet.</p>
@@ -32,7 +52,7 @@
 <!--/ End About Section -->
 
 <!-- Features Section -->
-<div class="row pb-3" id="features">
+<div class="row pb-3 mt-3" id="features">
     <div class="col-md-4 text-center align-self-center"> 
         <h2>NEWSY I WYDARZENIA</h2>
         <h6>Test</h6>

@@ -3,6 +3,52 @@ body{
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+
+
+/* Page piling */
+
+	#section1,
+	#section2,
+	#section3
+    #section4{
+		background-size: cover;
+	}
+
+  #section1{
+    background-color: #fff;
+    color: #152238;
+  }
+  #section2{
+    background-color: #152238;
+    color: #FFF;
+  }
+  #section3{
+    background-color: #fff;
+    color: #152238;
+  }
+  #section4{
+      background-color: #152238;
+      color: #FFF;
+  }
+
+/* End Pagepiling */
+/* Hero */
+#hero{
+    height: 100vh;
+}
+
+/* End hero * /
+
+/* About */
+
+#about{
+    margin: 50px 0px 50px 0px;
+}
+#about-img{
+    border-radius: 50px;
+}
+
+/* End About */
 /* Features */
 
 #features-col{

@@ -11,6 +11,7 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.css" integrity="sha512-xbp9DExL/1FLDKhQIJNwoCaBjPytQcPMg82UsbBq02kckLcVzQms0+Ot54jXwuBjR6M91vaYHSmqrZlQ/nOEAQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
         <!-- Bootstrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -41,16 +42,35 @@
 
         <!-- JS -->
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://unpkg.com/multiscroll.js/vendors/jquery.easings.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.6/jquery.pagepiling.min.js" integrity="sha512-FcXc9c211aHVJEHxoj2fNFeT8+wUESf/4mUDIR7c31ccLF3Y6m+n+Wsoq4dp2sCnEEDVmjhuXX6TfYNJO6AG6A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
         <title>Towney - @yield('title')</title>
+        <script>
+            var deleteLog = false;
+
+            $(document).ready(function() {
+                $('#pagepiling').pagepiling({
+                    menu: '#menu',
+                    anchors: ['page1', 'page2', 'page3','page4'],
+                    navigation: {
+                        'textColor': '#f2f2f2',
+                        'bulletsColor': '#ccc',
+                        'position': 'right',
+                        'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
+                    }
+                });
+            });
+        </script>
     </head>
     <body>
-        <div class="container-fluid">
+        <!--<div class="container-fluid"> -->
         @yield('header')
         @yield('content')
         @yield('footer')
-        </div>
-        <img class="img-fluid sticky-bottom" src="images/foo-bg.jpg" alt="Towney" id="foo-image">
+        <!-- </div> -->
+        <!-- <img class="img-fluid sticky-bottom" src="images/foo-bg.jpg" alt="Towney" id="foo-image"> -->
 
     </body>
 </html>
