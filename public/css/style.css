@@ -4,57 +4,93 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.container-fluid{
+    padding-left: 0px !important;
+}
 
 /* Page piling */
 
-	#section1,
-	#section2,
-	#section3
-    #section4{
+	#hero,
+	#about,
+	#features,
+    #contact{
 		background-size: cover;
 	}
 
-  #section1{
+  #hero{
     background-color: #fff;
     color: #152238;
   }
-  #section2{
+  #about{
     background-color: #152238;
     color: #FFF;
   }
-  #section3{
+  #features{
     background-color: #fff;
     color: #152238;
   }
-  #section4{
+  #contact{
       background-color: #152238;
       color: #FFF;
   }
 
 /* End Pagepiling */
-/* Hero */
-#hero{
-    height: 100vh;
-}
-
-/* End hero * /
 
 /* About */
 
-#about{
-    margin: 50px 0px 50px 0px;
-}
-#about-img{
-    border-radius: 50px;
+#about-bg{
+    text-transform: uppercase;
+    font-size:200px;
+    transform: rotate(-90deg);
+    font-weight: 900;
+    color: #192842;
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  
+  position: fixed;
+  bottom: 1.5em;
+  right: -0.8em;
+
 }
 
 /* End About */
 /* Features */
 
-#features-col{
-    background-color: #152238;
-    border-radius: 50px;
+#features-bg{
+    text-transform: uppercase;
+    font-size:200px;
+    transform: rotate(-90deg);
+    font-weight: 900;
+    color: #dfdfdf;
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  
+  position: fixed;
+  bottom: 1.5em;
+  right: -1.5em;
+
 }
+
 /* End Features */
 
 /* Contact */
@@ -62,6 +98,31 @@ body{
 #contact-col{
     background-color: #152238;
     border-top-left-radius: 90px;
+}
+
+#contact-bg{
+    text-transform: uppercase;
+    font-size:200px;
+    transform: rotate(-90deg);
+    font-weight: 900;
+    color: #192842;
+
+  /* Safari */
+  -webkit-transform: rotate(-90deg);
+
+  /* Firefox */
+  -moz-transform: rotate(-90deg);
+
+  /* IE */
+  -ms-transform: rotate(-90deg);
+
+  /* Opera */
+  -o-transform: rotate(-90deg);
+  
+  position: fixed;
+  bottom: 1.5em;
+  right: -1.5em;
+
 }
 
 /* End contact*/

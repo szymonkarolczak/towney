@@ -58,19 +58,15 @@
                         'textColor': '#f2f2f2',
                         'bulletsColor': '#ccc',
                         'position': 'right',
-                        'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Page 4']
+                        'tooltips': ['HOME', 'O NAS', 'ZALETY', 'KONTAKT']
                     }
                 });
             });
         </script>
     </head>
     <body>
-        <!--<div class="container-fluid"> -->
-        @yield('header')
-        @yield('content')
-        @yield('footer')
-        <!-- </div> -->
-        <!-- <img class="img-fluid sticky-bottom" src="images/foo-bg.jpg" alt="Towney" id="foo-image"> -->
-
+        <div class="container-fluid">
+            @yield('content')
+        </div>
     </body>
 </html>

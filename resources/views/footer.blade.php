@@ -23,7 +23,6 @@
             </form>
         </div>
 
-        <div class="text-center" id="copyright">Created with love by kdrsky</div>
     </div>
 
 @endsection
